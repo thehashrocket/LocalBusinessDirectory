@@ -1,0 +1,245 @@
+﻿@charset "utf-8";
+body {
+	color:#000;
+}
+
+#wrapper {
+	margin: 0 auto;
+	margin-top:5px;
+	width:950px;
+}
+
+h1, h2, h3, h4, p {margin-left:5px;}
+
+h1, h2, h3 {
+  font-family:"Times New Roman", Times, serif;
+  font-style:italic;
+  text-decoration:underline;}
+h4 {  font-weight:bold;}
+p {font-family:Verdana, Geneva, sans-serif;}
+.profiletext {  font-size:smaller;}
+#header {
+	height:210px;
+}
+
+#contentwrap { background-color:#FFF; }
+
+
+#footer {
+	background-image:url(/assets/images/footer-bg.jpg);
+	background-repeat:repeat-x;
+	height:55px;
+	text-align:center;
+	margin:0 auto;
+}
+
+#navigation {
+	background-color:#1B6639;
+	background-image:url(/assets/images/nav-bg.jpg);
+	background-repeat: repeat-x;
+	height: 35px;
+	font-size:14px;
+}
+
+#navcontainer {
+	margin-left:10px;
+}
+
+#footer p {
+color:#FFF;
+line-height:1.2em;
+padding-left:1em;
+margin-top:20px;
+}
+
+#footer a {color:#FFF;}
+
+#sidebarads{ padding-top:10px; margin-top:18px;}
+
+.frontpagead li, ul {
+  list-style-type:none;
+}#bottomsponsors {  margin-top:10px;}
+
+#testimonial {margin: 5px; padding: 5px; background-color: rgb(255, 255, 153); height:80px;}
+
+.floatleft {
+float:left;
+margin-right:.5em;
+margin-left:.25em;
+margin-bottom:.5em;
+}
+
+.adlogo {
+	float:center;
+	margin-left:0.5em;
+	margin-right:0.25em;
+	margin-bottom:0.5em;
+}
+
+.floatright {
+	float:right;
+	margin-left:0.5em;
+	margin-right:0.25em;
+	margin-bottom:0.5em;
+}
+
+.floatcenter {
+text-align:center;
+clear:both;
+}
+
+.winbbq input {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.winbbq p {
+  font-family:"Times New Roman"; font-style:italic; font-weight:bold; font-size:18px; color:#3a1a63;
+  
+}
+
+.pdf a {
+	background: transparent url(/assets/images/pdf_file.png) no-repeat scroll left center;
+	line-height:43px;
+	padding: 15px 0 15px 50px;
+}
+
+.clienthead {
+	background-image:url(/assets/images/clientheader.jpg);
+	background-repeat:repeat-n;
+	height:75px;
+}
+
+.clientheadline {
+	font-size:18px;
+	font-weight:bold;
+	font-family:"Times New Roman", times, serif;
+	vertical-align:middle;
+	text-align:center;
+}
+
+}
+.frontpagead {
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+}.carousel li {    margin-left:5px;  margin-right:5px;  margin-bottom:5px;}
+
+.concontact {
+  margin-top:30px;
+}
+
+.busad {
+	margin-top:5px;
+	margin-bottom:5px;
+	clear:both;
+}
+/*
+	root element for the scrollable.
+	when scrolling occurs this element stays still.
+*/
+
+/* Welcome Box */
+
+.welcomebox {
+  margin-top:10px;
+  background-color: #dfecb5;
+  border: #008337 solid 3px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -wekit-border-radius: 5px;
+  padding:10px;
+  
+}
+
+
+/* Sidebar Ads */
+
+.sidebarads h3 {
+  font-family:"Times New Roman", Times, serif;
+  text-align:center;
+  font-style:italic;
+  font-weight:bold;
+  color:#33135a;
+}
+
+/* Sidebar Menu */
+
+.aboutbar {
+  color:#FFF;
+  list-style-type:none;
+  border: #008337 solid 3px;
+  text-align:center;
+  margin-top:10px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.aboutbar h3 {
+  font-family:"Times New Roman", Times, serif;
+  font-style:italic;
+  text-decoration:underline;
+  margin-top:20px;
+}
+
+.sidebarmenu {
+  margin-left:-20px;
+}
+
+.sidebarmenu ul {
+  list-style-type: none;
+}
+
+.sidebarmenu a {
+  text-decoration:none;
+  color:#FEF1EC;
+  font-weight:bold;
+  font-size:14px;
+}
+
+.sidebarmenu a:hover {
+  color#FFFFFF;
+}
+#bottomsponsors {}
+.sidebarmenu  li {
+  background-color: #9f72c9;
+  border: #613d87 solid 2px;
+  margin-bottom:10px;
+  list-style-type: none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+table {
+ border-collapse: collapse;
+}
+
+th {
+ background: #3e83c9;
+ color: #fff;
+ font-weight: bold;
+ padding: 2px 11px;
+ text-align: left;
+ border-right: 1px solid #fff;
+ line-height: 1.2;
+}
+
+td {
+ padding: 6px 5px;
+ border-bottom: 1px solid #95bce2;
+ vertical-align: top;
+}
+
+td * {
+ padding: 6px 5px;
+}
+
+tr.alt td {
+ background: #ecf6fc;
+}
+
+tr.over td {
+ background: #bcd4ec;
+}

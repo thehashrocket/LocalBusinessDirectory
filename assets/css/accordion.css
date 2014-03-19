@@ -1,0 +1,6 @@
+.accordionWrapper{display:inline-block; background-color:#FC6; overflow:hidden; margin-left:10px; margin-right:10px; min-width:500px;}
+.accordionWrapper img{vertical-align:top; border:0; margin:0; padding:0}
+.accordionWrapper div{display:inline; float:left; margin:auto;}
+.accordionWrapper div.title{cursor:pointer; background-color:#F90;}
+.accordionWrapper div.content{display:none; background-color:#FC6;}
+.accordionWrapper p {margin-bottom:0;}
